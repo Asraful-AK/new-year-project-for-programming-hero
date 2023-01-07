@@ -75,12 +75,10 @@ main{
 
 
 /* my plan section */
-.my-plan{
-    text-align: center;
-}
 .my-plan .my-plan-title{
     margin-bottom: 90px;
     font-size: 40px;
+    margin-left: 750px;
     font-weight: 800;
 }
 .my-plan .my-plan-items{
