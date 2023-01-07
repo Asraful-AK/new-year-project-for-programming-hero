@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+/* header section */
+header{
+    background: url(banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+}
+header .header-right{
+    float: right;
+    padding:250px 300px;
+}
+.header-right .header-title{
+    text-align: right;
+    width: 505px;
+    font-size: 65px;
+    color:white;
+    margin-bottom: 20px;
+}
+.header-right .header-body{
+    text-align: right;
+    width: 398px;
+    color:white;
+    margin-bottom: 20px;
+    float: right;
+    line-height: 30px;
+
+}
+.header-right button{
+    float: right;
+    clear: both;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color:#005FAC;
+    font-weight: 800;
+}
+
+/* main section */
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1072px;
+    margin:200px;
+    
+}
+.main-right{
+    width: 416px;
+}
+.main-right .main-title{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.main-right .main-body{
+    margin-bottom: 30px;
+    line-height: 30px;
+
+}
+.main-right .main-list{
+    list-style-position: inside;
+    list-style-image: url(checkmark.png);
+    list-style: 10px;
+}
+
+
+/* my plan section */
+.my-plan{
+    text-align: center;
+}
+.my-plan .my-plan-title{
+    margin-bottom: 90px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.my-plan .my-plan-items{
+    height: 202px;
+    width: 1160px;
+    margin-left: 250px;
+}
+.my-plan-items-icons{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.my-plan-items-icons li{
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+}
+.my-plan-items-title{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.my-plan-items-title li{
+    text-align: center;
+    width: 140px;
+    font-weight: 600;
+}
+
+
+/* contact section */
+.contact{
+    width: 1140px;
+    height: 300px;
+    margin:0 220px;
+    border: none;
+    background:url(gradient1.png), url(watch.png);
+    margin-bottom: 200px;
+}
+
+.contact .contact-body{
+    margin:0px 60px 20px;
+    padding-top: 50px;
+    font-size: 40px;
+    width: 600px;
+    color:white;
+    font-weight: 800;
+}
+.contact button{
+    margin-left: 60px;
+    padding:15px 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 800;
+    color:#003d6e;
+}
+
+
+/* footer section */
+footer{
+    width: 1600px;
+    height: 577px;
+    background-color: black;
+    color: white;
+    
+}
+.footer-mini{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 300px;
+    float: left;
+    margin:100px 300px 0;
+}
+.footer-left{
+    width: 485px;
+    height: 317px;
+}
+
+.footer-right{
+    width: 325px;
+    height: 204px;
+}
+.footer-right-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-right input{
+    background-color: black;
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    color: white;
+    float: left;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.footer-right button{
+    float: left;
+    clear: both;
+    width: 100px;
+    height: 40px;
+    background-color: #005FAC;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+.footer-left-title{
+    font-size:40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-left-body{
+    margin-bottom: 20px;
+    line-height: 30px;
+
+}
+.footer-left-mail{
+    margin-bottom: 20px;
+}
+.footer-left-number{
+    margin-bottom: 20px;
+}
+.footer-left-list img{
+    margin-right: 10px;
+    cursor: pointer;
+}
